@@ -987,11 +987,14 @@ footer .terima-kasih{
           @media (max-width: 576px) {
             .container-nav{
               gap: .8rem;
-              width: 90%;
+              width: 85%;
               opacity: 85%;
             }
             nav a{
               font-size: .9rem;
+            }
+            .container-home{
+              width: 100%;
             }
             #home .container-home .cont-body{
               position: relative;
@@ -999,6 +1002,7 @@ footer .terima-kasih{
             #home .container-home .cont-body .kata{
               margin-top: 120px;
               width: 100%;
+              margin-left: 80px;
               text-align: center;
             }
             #home .container-home .cont-body a{
@@ -1008,7 +1012,11 @@ footer .terima-kasih{
             #home .container-home .cont-body .gambar{
               position: absolute;
               margin-top: -190px;
-              margin-left: 60px;
+              margin-left: 78px;
+             
+            }
+            #home .container-home .cont-body .gambar img{
+                width: 60px;
             }
             #home .container-home .cont-body .kata button{
                 
