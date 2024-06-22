@@ -13,6 +13,9 @@ body{
     height: 300vh;
     position: relative;
 }
+#home, #about, #contact{
+  overflow: hidden;
+}
 nav {
  display: flex;
  margin-top:  10px;
