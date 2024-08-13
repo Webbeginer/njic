@@ -10,7 +10,6 @@
 }
 body{
     font-family: "Montserrat", sans-serif;
-    height: 300vh;
     position: relative;
 }
 #home, #about, #contact{
@@ -998,6 +997,7 @@ footer .terima-kasih{
             }
             .container-home{
               width: 100%;
+              height: 670px;
             }
             #home .container-home .cont-body{
               position: relative;
